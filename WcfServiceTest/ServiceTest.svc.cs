@@ -24,7 +24,7 @@ namespace WcfServiceTest
         public List<string> GetDaysOfWeek()
         {
             List<string> list = new List<string>();
-            list.Add("Monday");
+            list.Add("Mandag");
             list.Add("Tirsdag");
             list.Add("Onsdag");
             list.Add("Torsdag");
