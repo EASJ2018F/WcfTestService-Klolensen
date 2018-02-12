@@ -15,5 +15,23 @@ namespace WcfServiceTest
         {
             return "Kevin Jensen";
         }
+
+        public string GetMyAddress()
+        {
+            return "Køgevej 54a";
+        }
+
+        public List<string> GetDaysOfWeek()
+        {
+            List<string> list = new List<string>();
+            list.Add("Monday");
+            list.Add("Tirsdag");
+            list.Add("Onsdag");
+            list.Add("Torsdag");
+            list.Add("Fredag");
+            list.Add("Lørdag");
+            list.Add("Søndag");
+            return list;
+        }
     }
 }

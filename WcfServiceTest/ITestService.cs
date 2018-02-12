@@ -14,5 +14,11 @@ namespace WcfServiceTest
     {
         [OperationContract]
         string GetMyName();
+
+        [OperationContract]
+        string GetMyAddress();
+
+        [OperationContract]
+        List<string> GetDaysOfWeek();
     }
 }
